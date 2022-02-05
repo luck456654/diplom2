@@ -1,0 +1,34 @@
+.nav-btn {
+    position: relative;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    background-color:  #666666;
+    transition: background-color var(--short), box-shadow var(--short);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .nav-btn::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 7px / 2);
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    transform-origin: center;
+  }
+  .nav-btn:hover:not(.nav-btn--disabled){
+      background-color: #9D5CD0;
+  }
+  .nav-btn:active{
+    background-color: #7943A4;;
+}
+  .nav-btn:focus{
+   box-shadow: inset 0 0 0 2px black;
+   outline: none;
+}
+.nav-btn--disabled{
+    background-color: rgba(102, 102, 102, .5);
+}

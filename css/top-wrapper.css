@@ -1,0 +1,200 @@
+.top-wrapper{
+    position: relative;
+    background-color: gray;
+    overflow: hidden;
+}
+.top-wrapper__slider{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation-name: resize;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.top-wrapper__header{
+    z-index: 3;
+}
+.top-wrapper__hero{
+    z-index: 2;
+}
+.top-wrapper__header,.top-wrapper__hero{
+    position: relative;
+}
+.hero{
+    color: white;
+    padding-top: 68px;
+    padding-bottom: 125px;
+}
+.hero__content{
+    max-width: 597px;
+}
+.hero__title{
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 72px;
+    line-height: 85px;
+    font-weight: bold;
+}
+.hero__text{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;  
+}
+.hero__text:last-of-type{
+    margin-bottom: 94px;
+}
+.btn{
+      border-radius: 100px;
+      background-color: transparent;
+      border: none;
+      padding: 24px 35px;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1;
+      color: white;
+      position: relative;
+      display: inline-block;
+      
+}
+.btn--border{
+    border: 2px solid #9D5CD0;
+}
+.btn--fill{
+    background-color: #9D5CD0;
+    transition: border-color var(--short);
+ }
+ .btn--fill::after{
+   border-color:#9D5CD0;
+ } 
+.btn::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border: 2px solid #9D5CD0;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity var(--short);
+}
+.btn:focus:not(:active):not(:hover):after{
+    opacity: 1;
+    }
+
+.btn--fill:hover{
+    border:2px solid #D1A9F0;
+    
+}
+.hero__btn{
+    margin-right: 20px;
+}
+.btn--fill:active{
+   background-color:  #7943A4;
+   border-color: #D1A9F0;
+}
+.top-wrapper__slide{
+    background-size:cover;
+    background-position: center top;
+}
+.top-wrapper__slide--1{
+    background-image: url(../img/banner1-01.png);
+}
+.top-wrapper__slide--2{
+    background-image: url(../img/banner1-02.png);
+}
+.top-wrapper__slide--3{
+    background-image: url(../img/banner1-03.png);
+}
+@media(max-width:1280px){
+    .top-wrapper__slide--1{
+        background-image: url(../img/banner2-01.jpg);
+    }
+    .top-wrapper__slide--2{
+        background-image: url(../img/banner2-02.jpg);
+    }
+    .top-wrapper__slide--3{
+        background-image: url(../img/banner2-03.jpg);
+    }
+}
+@media(max-width:970px){
+    .top-wrapper__slide--1{
+        background-image: url(../img/banner3-01.jpg);
+    }
+    .top-wrapper__slide--2{
+        background-image: url(../img/banner3-02.jpg);
+    }
+    .top-wrapper__slide--3{
+        background-image: url(../img/banner3-03.jpg);
+    }
+}
+@media(max-width:420px){
+    .top-wrapper__slide--1{
+        background-image: url(../img/banner4-01.jpg);
+    }
+    .top-wrapper__slide--2{
+        background-image: url(../img/banner4-02.jpg);
+    }
+    .top-wrapper__slide--3{
+        background-image: url(../img/banner4-03.jpg);
+    }
+}
+
+@media (max-width:1280px){
+    .hero{
+        padding-top: 111px;
+        padding-bottom: 117px;
+    }
+    .hero__title{
+        margin-bottom: 11px;
+        width: 563px;
+    }
+    .hero__text:last-of-type{
+       margin-bottom: 136px;
+    }
+    
+}
+@media(max-width:610px){
+    .hero{
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+    .hero__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .hero__title{
+        font-size: 32px;
+        line-height: 39px;
+        max-width: 253px;
+    }
+    .hero__text{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 20px;
+        max-width: 273px;
+    }
+    .hero__text:last-of-type{
+        margin-bottom: 43px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 14px 19px;
+    }
+    .hero__btn {
+        margin-right: -4px;
+        }
+    }
+}

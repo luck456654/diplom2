@@ -1,0 +1,19 @@
+.burger.is-opened .burger__line{
+    opacity: 0;
+}
+.is-opened.burger::before,
+.is-opened.burger::after
+{
+    transform-origin: center;
+}
+.is-opened.burger::before{
+    top:calc(50%-3px / 2);
+    transform: rotate(45deg)translateY(17.5px);
+}
+.is-opened.burger::after{
+    bottom: calc(50%-3px/2);
+    transform: rotate(-45deg)translateY(-17.5px);  
+}
+.is-opened.burger{
+    width: 25px;
+}
