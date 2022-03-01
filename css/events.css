@@ -1,0 +1,126 @@
+.events-slider__slide{
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.events-slider__image{
+    display: block;
+    width: 100%;
+}
+.events-slider__slider{
+    overflow: hidden;
+}
+.events-slider__slide-content{
+    padding: 13px 50px 50px;
+    border: 1px solid #F2F2F2;
+    border-top:none;
+    min-height: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.events-slider__info{
+    font-size:12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #999999;
+    margin-bottom: 13px;
+}
+.events-slider__info-text{
+    display: block;
+    }
+.events-slider__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.events-slider__link{
+    margin-top: auto;
+    color: #9D5CD0;;
+}
+.events-slider__link:hover{
+    color:#7943A4;
+    text-decoration:underline; 
+}
+.events-slider__link:focus:not(:hover):not(:active){
+    color: white;
+    background-color: #9D5CD0;
+}
+.events-slider__link:active{
+    color: black;
+}
+.events-slider{
+    position: relative;
+    }
+.events-slider__pagination{
+    display: none;
+}    
+.nav-btn--big-ev{
+    width: 50px;
+    height: 50px;
+}
+.nav-btn--big-ev::before{
+    width: 12px;
+    height: 12px;
+}
+.events__btn{
+    background-color: #ECECEC;
+   }
+.nav-btn--prev::before{
+    left: calc(50% - 12px /2);
+    border-color: black!important;
+}
+.nav-btn--next::before{
+    left: calc(50% - 5px /2);
+    border-color: black;
+}
+.events__slider{
+    position: relative;
+}
+.nav-btn--next{
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    left: 98.2%;
+}
+.nav-btn--prev{
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 0;
+}
+@media(max-width:1280px){
+    .nav-btn{
+        display: none;
+    }
+    .events-slider__pagination{
+        display: inline-block;
+    }
+    .events-slider{
+        --swiper-pagination-bullet-width:10px;
+        --swiper-pagination-bullet-height:10px;
+        --swiper-pagination-color:#666666;
+    }
+    .events-slider__slide-content {
+        padding: 6px 31px 50px;
+}
+   .events-slider__info {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 6px;
+    }
+
+.events-slider__title {
+    margin-bottom: 6px;
+}
+.events-slider__image {
+    margin-bottom: 7px;
+}
+.js-events-nextev,.js-events-prevev{
+    display: none!important;
+}
+}

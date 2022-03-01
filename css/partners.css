@@ -1,0 +1,181 @@
+.partners-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.js-partners-slider{
+    overflow: hidden;
+    width: calc(1450 / 1600 * 100%);
+}
+.partners-slider__slide{
+    height: 150px;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    padding: 32px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    }
+.partners-slider__image{
+    filter:grayscale(1);
+    opacity: .4;
+    transition-property: filter,opacity;
+    transition-duration: 0.5s;
+    max-height: 100%;
+}
+.partners-slider__slide:hover .partners-slider__image{
+    filter:grayscale(0);
+    opacity: 1;
+}
+.partners-slider__slide:focus{
+    border: 1px solid #9D5CD0;
+}
+.partners-slider__slide:active{
+    border: 1px solid #9D5CD0;
+}
+.partners-slider__slide:active .partners-slider__image{
+    filter:grayscale(0);
+    opacity: 1;
+}
+.nav-btn--light{
+    background-color: #ECECEC;
+    }
+.nav-btn--light::before{
+    border-color: black!important;
+}
+.nav-btn--disabled.nav-btn--light::before{
+    border-color: #BBBBBB;
+}
+
+.nav-btn--light:active{
+    background-color: #D1A9F0;
+}
+.nav-btn--light:focus{
+    box-shadow: inset 0 0 0 2px #9D5CD0;
+}
+.projects{
+    padding-top: 80px;
+    padding-bottom: 73px;
+}
+
+@media(max-width:1280px) {
+    .partners-slider__slide{
+        padding: 27px 50px;
+        height: 128px;
+    } 
+    .js-partners-slider{
+       width: calc(818 / 924 * 100%);
+    }
+    .projects{
+        padding-top: 137px;
+        padding-bottom: 68px;
+    }
+    .projects__wrapper-text {
+        margin-bottom: 30px!important;
+        width: 932px!important;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -67px
+    }
+    .events__btn{
+        display: block!important;
+    }
+
+}
+@media(max-width:970px) {
+    .partners-slider__slide{
+        padding: 17px 24px;
+        height: 106px;
+    } 
+    .js-partners-slider{
+       width: calc(562 / 668 * 100%);
+    }
+    .projects {
+        padding-top: 137px;
+        padding-bottom: 14px;
+    }
+    
+    .projects__wrapper-text {
+       width: 691px!important;
+}
+
+
+}
+@media(max-width:610px) {
+    .partners-slider__slide{
+        height: 65px;
+        padding: 14px 27px;
+    } 
+    .js-partners-slider{
+        width: calc(195 / 290 * 100%);
+     }
+     .projects__wrapper-text {
+        font-size: 16px;
+        width: 297px!important;
+        margin-bottom: -10px!important;
+    }
+    .events-slider__image {
+        margin-bottom: 14px!important;
+    }
+    .events-slider__slide-content {
+        padding: 6px 22px 50px!important;
+    }
+    .events-slider__info {
+        margin-bottom: 9px!important;
+    }
+    .projects__partners-title{
+        font-size: 18px!important;
+      }
+    .projects__partners-title {
+        margin-bottom: 10px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -102px;
+    }
+    .events__btn{
+        display: none!important;
+    }
+    .nav-btngp{
+        top: 16%!important;
+        left: -35px!important;
+    }
+    .nav-btngn{
+        top: 16%!important;
+        left: 98.2%!important;
+    }
+    .js-partners-prev,.js-partners-next{
+        display: block!important;
+    }
+    .nav-btngp{
+        position: relative!important;
+        left: -10px!important;
+    }
+    .nav-btngn{
+        position: relative!important;
+        left: 0!important;
+    }
+}
+@media(max-width:610px){
+    .contacts__hr{
+        display: none;
+    }
+    .contacts__shourum{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px!important;
+        line-height: 25px;
+    }
+}
+.nav-btngp{
+    position: relative!important;
+   }
+.nav-btngn{
+    position: relative!important;
+    left: 0!important;
+}
+.nav-btn {
+    display: block!important;
+}

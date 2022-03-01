@@ -83,17 +83,17 @@
     transform-origin: center;
   }
   
-  .gallery__prev {
+  .nav-btn--prev {
     margin-right: 10px;
   }
   
-  .gallery__next::before {
+  .nav-btn--next::before {
     left: calc(50% - 7px / 2);
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
   }
   
-  .gallery__prev::before {
+  .nav-btn--prev::before {
     left: calc(50% - 7px / 2);
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;

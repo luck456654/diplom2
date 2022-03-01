@@ -1,0 +1,16 @@
+.projects__link{
+    color:blueviolet;
+}
+.projects__wrapper-text{
+    width: 1080px;
+    margin-bottom: -5px;
+}
+.projects__partners-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    width: 250px;
+    color: #333333;
+}

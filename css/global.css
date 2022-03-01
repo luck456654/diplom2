@@ -115,6 +115,9 @@ body{
 .section-title{
    margin-bottom: 16px;
 }
+.contacts__tel-ring{
+    display: none;
+}
 @media(max-width:610px){
   .section-title{    
     line-height: 38px;
