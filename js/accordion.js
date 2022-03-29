@@ -3,9 +3,9 @@
       openOnInit: [0]
     });
   })();
-
+  
 let hi1sost=0;
-let li1=document.querySelector(".accordion__li1")
+let li1=document.querySelector(".catalog__li1")
 let hi1=document.getElementById("hicon1")
 li1.addEventListener("click",rotateli1)
 
@@ -21,7 +21,7 @@ function rotateli1(){
 }
 
 let hi2sost=0;
-let li2=document.querySelector(".accordion__li2")
+let li2=document.querySelector(".catalog__li2")
 let hi2=document.getElementById("hicon2")
 li2.addEventListener("click",rotateli2)
 
@@ -37,7 +37,7 @@ function rotateli2(){
 }
 
 let hi3sost=0;
-let li3=document.querySelector(".accordion__li3")
+let li3=document.querySelector(".catalog__li3")
 let hi3=document.getElementById("hicon3")
 li3.addEventListener("click",rotateli3)
 
@@ -53,7 +53,7 @@ function rotateli3(){
 }
 
 let hi4sost=0;
-let li4=document.querySelector(".accordion__li4")
+let li4=document.querySelector(".catalog__li4")
 let hi4=document.getElementById("hicon4")
 li4.addEventListener("click",rotateli4)
 
@@ -69,7 +69,7 @@ function rotateli4(){
 }
 
 let hi5sost=0;
-let li5=document.querySelector(".accordion__li5")
+let li5=document.querySelector(".catalog__li5")
 let hi5=document.getElementById("hicon5")
 li5.addEventListener("click",rotateli5)
 
@@ -85,7 +85,7 @@ function rotateli5(){
 }
 
 let hi6sost=0;
-let li6=document.querySelector(".accordion__li6")
+let li6=document.querySelector(".catalog__li6")
 let hi6=document.getElementById("hicon6")
 li6.addEventListener("click",rotateli6)
 
@@ -101,7 +101,7 @@ function rotateli6(){
 }
 
 let hi7sost=0;
-let li7=document.querySelector(".accordion__li7")
+let li7=document.querySelector(".catalog__li7")
 let hi7=document.getElementById("hicon7")
 li7.addEventListener("click",rotateli7)
 
