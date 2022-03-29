@@ -1,8 +1,11 @@
-.catalog{
-    padding-top: 80px;
+.head-icon:hover{
+    fill:#D1A9F0;
+}
+.catalog {
+    padding: 80px 0px 72px
 }
 .catalog__title{
-    margin-bottom: 0;
+    margin-bottom: -7px;
     margin-right: 40px;
 }
 .catalog__top{
@@ -86,4 +89,82 @@
 }
 .catalog__countries-btn:active::after{
     opacity: 1;
+}
+.catalog__painter-image{
+    width: 750px;
+    height: 470px;
+}
+.catalog__content{
+    display: flex;
+    flex-direction: row;
+}
+.catalog__desc{
+    margin-bottom: 40px!important;
+}
+.catalog__painter-image{
+    margin-bottom: 1px;
+}
+.catalog__painter-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 0px;
+}
+.catalog__painter-years{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.catalog__description{
+    width:750px;
+}
+.catalog__content-left{
+    margin-right: 49px;
+}
+.catalog__cub{
+    width: 251px;
+    height: 165px;
+    background: #B7B7B7;
+    margin-left: 12px;
+    }
+.catalog__wrapper-cub{
+    border: 2px solid #B7B7B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 275px;
+    height: 189px;
+    margin-right: 40px;
+}   
+.catalog__h3{
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+} 
+.catalog__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.catalog__card-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 276px;
+}
+.catalog__card-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9D5CD0;
 }
