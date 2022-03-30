@@ -11,11 +11,14 @@ li1.addEventListener("click",rotateli1)
 
 function rotateli1(){
   if (hi1sost==0){  
-    hi1.style.transform="rotate(180deg)";
+    hi1.style.transform="rotate(180deg) translateY(22px)";
+    hi1.style.transition="transform 0.00005s linear"
+    
     return hi1sost=1;
       }
       else{
-      hi1.style.transform="rotate(360deg)" 
+      hi1.style.transform="rotate(360deg) translateY(-22px)" 
+      hi1.style.transition="transform 0.00005s linear"
       return hi1sost=0;
 }
 }
@@ -27,11 +30,13 @@ li2.addEventListener("click",rotateli2)
 
 function rotateli2(){
   if (hi2sost==0){  
-    hi2.style.transform="rotate(180deg)";
+    hi2.style.transform="rotate(180deg) translateY(22px)";
+    hi2.style.transition="transform 0.00005s linear"
     return hi2sost=1;
       }
       else{
-      hi2.style.transform="rotate(360deg)" 
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
       return hi2sost=0;
 }
 }
@@ -43,11 +48,13 @@ li3.addEventListener("click",rotateli3)
 
 function rotateli3(){
   if (hi3sost==0){  
-    hi3.style.transform="rotate(180deg)";
+    hi3.style.transform="rotate(180deg) translateY(22px)";
+    hi3.style.transition="transform 0.00005s linear"
     return hi3sost=1;
       }
       else{
-      hi3.style.transform="rotate(360deg)" 
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
       return hi3sost=0;
 }
 }
@@ -59,11 +66,13 @@ li4.addEventListener("click",rotateli4)
 
 function rotateli4(){
   if (hi4sost==0){  
-    hi4.style.transform="rotate(180deg)";
+    hi4.style.transform="rotate(180deg) translateY(22px)";
+    hi4.style.transition="transform 0.00005s linear"
     return hi4sost=1;
       }
       else{
-      hi4.style.transform="rotate(360deg)" 
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
       return hi4sost=0;
 }
 }
@@ -75,11 +84,13 @@ li5.addEventListener("click",rotateli5)
 
 function rotateli5(){
   if (hi5sost==0){  
-    hi5.style.transform="rotate(180deg)";
+    hi5.style.transform="rotate(180deg) translateY(22px)";
+    hi5.style.transition="transform 0.00005s linear"
     return hi5sost=1;
       }
       else{
-      hi5.style.transform="rotate(360deg)" 
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
       return hi5sost=0;
 }
 }
@@ -91,11 +102,13 @@ li6.addEventListener("click",rotateli6)
 
 function rotateli6(){
   if (hi6sost==0){  
-    hi6.style.transform="rotate(180deg)";
+    hi6.style.transform="rotate(180deg) translateY(22px)";
+    hi6.style.transition="transform 0.00005s linear"
     return hi6sost=1;
       }
       else{
-      hi6.style.transform="rotate(360deg)" 
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
       return hi6sost=0;
 }
 }
@@ -107,11 +120,91 @@ li7.addEventListener("click",rotateli7)
 
 function rotateli7(){
   if (hi7sost==0){  
-    hi7.style.transform="rotate(180deg)";
+    hi7.style.transform="rotate(180deg) translateY(22px)";
+    hi7.style.transition="transform 0.00005s linear"
     return hi7sost=1;
       }
       else{
-      hi7.style.transform="rotate(360deg)" 
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
       return hi7sost=0;
 }
+}
+
+let wrap1=document.querySelector(".catalog__wrap1")
+let wrap11=document.querySelector(".catalog__wrap11")
+wrap1.addEventListener("mouseover",addcolor1)
+wrap1.addEventListener("mouseout",removecolor1)
+function addcolor1(){
+  wrap11.style.color="#7943A4";
+ }
+function removecolor1(){
+  wrap11.style.color="#333333";
+}
+
+let wrap2=document.querySelector(".catalog__wrap2")
+let wrap21=document.querySelector(".catalog__wrap21")
+wrap2.addEventListener("mouseover",addcolor2)
+wrap2.addEventListener("mouseout",removecolor2)
+function addcolor2(){
+  wrap21.style.color="#7943A4";
+}
+function removecolor2(){
+  wrap21.style.color="#333333";
+}
+
+
+let wrap3=document.querySelector(".catalog__wrap3")
+let wrap31=document.querySelector(".catalog__wrap31")
+wrap3.addEventListener("mouseover",addcolor3)
+wrap3.addEventListener("mouseout",removecolor3)
+function addcolor3(){
+  wrap31.style.color="#7943A4";
+}
+function removecolor3(){
+  wrap31.style.color="#333333";
+}
+
+let wrap4=document.querySelector(".catalog__wrap4")
+let wrap41=document.querySelector(".catalog__wrap41")
+wrap4.addEventListener("mouseover",addcolor4)
+wrap4.addEventListener("mouseout",removecolor4)
+function addcolor4(){
+  wrap41.style.color="#7943A4";
+}
+function removecolor4(){
+  wrap41.style.color="#333333";
+}
+
+let wrap5=document.querySelector(".catalog__wrap5")
+let wrap51=document.querySelector(".catalog__wrap51")
+wrap5.addEventListener("mouseover",addcolor5)
+wrap5.addEventListener("mouseout",removecolor5)
+function addcolor5(){
+  wrap51.style.color="#7943A4";
+}
+function removecolor5(){
+  wrap51.style.color="#333333";
+}
+
+let wrap6=document.querySelector(".catalog__wrap6")
+let wrap61=document.querySelector(".catalog__wrap61")
+wrap6.addEventListener("mouseover",addcolor6)
+wrap6.addEventListener("mouseout",removecolor6)
+function addcolor6(){
+  wrap61.style.color="#7943A4";
+}
+function removecolor6(){
+  wrap61.style.color="#333333";
+}
+
+let wrap7=document.querySelector(".catalog__wrap7")
+let wrap71=document.querySelector(".catalog__wrap71")
+wrap7.addEventListener("mouseover",addcolor7)
+wrap7.addEventListener("mouseout",removecolor7)
+function addcolor7(){
+  wrap71.style.color="#7943A4";
+}
+function removecolor7(){
+  wrap71.style.color="#333333";
 }

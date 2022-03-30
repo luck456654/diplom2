@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+.contacts__container {
+    padding-top: 23px;
+}
+.contacts__house {
+    margin-bottom: 0px;
+}
+.contacts__name {
+    margin-right: -112px;
+}
+.contacts__container{
+    padding-right: 27px;
+}
+.contacts__tel {
+    width: 341px;
+}
+}

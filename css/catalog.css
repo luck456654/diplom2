@@ -2,7 +2,7 @@
     fill:#D1A9F0;
 }
 .catalog {
-    padding: 80px 0px 72px
+    padding: 80px 0px 65px
 }
 .catalog__title{
     margin-bottom: -7px;
@@ -97,6 +97,7 @@
 .catalog__content{
     display: flex;
     flex-direction: row;
+    border: 0px!important;
 }
 .catalog__desc{
     margin-bottom: 40px!important;

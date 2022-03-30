@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+.catalog__painter-image{
+    width:437px;
+    height:274px;
+    margin-bottom: -4px;
+}
+.catalog__description {
+    width: 436px;
+}
+.catalog__question{
+    width: 438px;
+}
+.catalog__item {
+    margin-right: 160px;
+}
+.catalog__inner-list{
+    column-count: 2!important;
+    height: 411px;
+}
+.catalog__item {
+    width: 100%;
+}
+.catalog__content-wrap {
+    padding-top: 22px;
+}
+.catalog__cub {
+    width: 173px;
+    height: 114px;
+}
+.catalog__wrapper-cub{
+    width: 189px;
+    height: 130px;
+    margin-right: 33px;
+    padding-right: 8px;
+    }
+.catalog__card-text{
+    width: 207px;
+}
+}

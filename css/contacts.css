@@ -35,12 +35,26 @@ height: 50px;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    margin-bottom: 75px;
+    margin-bottom: 77px;
     }
-.contacts__tel::placeholder{
-    color:#9D5CD0;
-    padding-left: 5px;
-}
+
+.contacts__tel{
+width: 258px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #9D5CD0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: white;
+height: 50px;
+    }
 .contacts__shourum{
     font-family: 'Open Sans';
     font-style: normal;
@@ -49,7 +63,7 @@ height: 50px;
     margin-bottom: -5px;
 }
 .contacts__container{
-    padding-top: 21px;
+    padding-top: 8px;
     
 }
 .contacts__text{
@@ -95,6 +109,9 @@ height: 50px;
 .contacts__map{
     position: relative;
     top: -60px;
+}
+.contacts__house{
+    margin-bottom: 86px;
 }
 @media(max-width:1280px) {
     .contacts__content{
