@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .contacts__ring {
+    position: relative;
+    left: 40px;
+}
+.contacts__tel {
+    width: 316px;
+    position: relative;
+    top: -5px;
+    margin-bottom: -7px;
+}
+}

@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+.projects {
+        padding-top: 69px;
+        padding-bottom: 72px;
+    }
+.projects__text {
+    margin-bottom: -4px;
+}
+.projects__partners-title{
+    margin-bottom: 30px;
+}
+.partners-slider__slide{
+    width: 258px!important;
+    margin-right: 33px!important;
+}
+}
