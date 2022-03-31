@@ -47,4 +47,19 @@
             .events__slide-content2 {
                 padding: 0px 1px 4px 37px!important;
             }
+            .catalog__cub {
+                width: 251px;
+                height: 165px;
+            }
+            .catalog__wrapper-cub{
+                width: 275px;
+                height: 189px;
+                margin-right: 24px;
+                padding-right: 12px;
+                margin-bottom: 25px;
+                }
+            .catalog__card-text {
+                width: 275px;
+            }    
+
          }

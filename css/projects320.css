@@ -1,0 +1,36 @@
+@media (max-width: 320px) {
+    .projects{
+        padding-top: 29px;
+    }
+    .projects__title{
+        margin-bottom: -4px;
+    }
+    .projects__text {
+        margin-bottom: 20px;
+    }
+    .projects__partners-title {
+        margin-bottom: 10px;
+    }
+    .partners-slider__slide {
+        width: 188px!important;
+        }
+    .partners-slider{
+        margin-bottom: -59px;
+    }
+    .contacts__ring {
+        position: relative;
+        left: -2px;
+        margin-bottom: 17px;
+    }
+    .contacts__tel-ring{
+        margin-bottom: -6px;
+    }
+    .contacts__map{
+        height: 320px!important;
+    }
+    .footer {
+        background-color: black;
+        position: relative;
+        top: -102px;
+    }
+}

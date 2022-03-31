@@ -8,57 +8,172 @@ let hi1sost=0;
 let li1=document.querySelector(".catalog__li1")
 let hi1=document.getElementById("hicon1")
 li1.addEventListener("click",rotateli1)
-
-function rotateli1(){
-  if (hi1sost==0){  
-    hi1.style.transform="rotate(180deg) translateY(22px)";
-    hi1.style.transition="transform 0.00005s linear"
-    
-    return hi1sost=1;
-      }
-      else{
-      hi1.style.transform="rotate(360deg) translateY(-22px)" 
-      hi1.style.transition="transform 0.00005s linear"
-      return hi1sost=0;
-}
-}
+li1.addEventListener("blur",rotateli1)
 
 let hi2sost=0;
 let li2=document.querySelector(".catalog__li2")
 let hi2=document.getElementById("hicon2")
 li2.addEventListener("click",rotateli2)
 
-function rotateli2(){
-  if (hi2sost==0){  
-    hi2.style.transform="rotate(180deg) translateY(22px)";
-    hi2.style.transition="transform 0.00005s linear"
-    return hi2sost=1;
-      }
-      else{
-        hi2.style.transform="rotate(360deg) translateY(-22px)" 
-        hi2.style.transition="transform 0.00005s linear"
-      return hi2sost=0;
-}
-}
-
 let hi3sost=0;
 let li3=document.querySelector(".catalog__li3")
 let hi3=document.getElementById("hicon3")
 li3.addEventListener("click",rotateli3)
 
-function rotateli3(){
-  if (hi3sost==0){  
-    hi3.style.transform="rotate(180deg) translateY(22px)";
-    hi3.style.transition="transform 0.00005s linear"
-    return hi3sost=1;
+function rotateli1(){
+  if (hi1sost==0){  
+    hi1.style.transform="rotate(180deg) translateY(22px)";
+    hi1.style.transition="transform 0.00005s linear";
+    if (hi2sost==1){
+      hi2.style.transform="rotate(360deg) translateY(-22px)" 
+      hi2.style.transition="transform 0.00005s linear"
+    }
+    if (hi3sost==1){
+      hi3.style.transform="rotate(360deg) translateY(-22px)" 
+      hi3.style.transition="transform 0.00005s linear"
+    }
+    if (hi4sost==1){
+      hi4.style.transform="rotate(360deg) translateY(-22px)" 
+      hi4.style.transition="transform 0.00005s linear"
+    }
+    if (hi5sost==1){
+      hi5.style.transform="rotate(360deg) translateY(-22px)" 
+      hi5.style.transition="transform 0.00005s linear"
+    }
+    if (hi6sost==1){
+      hi6.style.transform="rotate(360deg) translateY(-22px)" 
+      hi6.style.transition="transform 0.00005s linear"
+    }
+    if (hi7sost==1){
+      hi7.style.transform="rotate(360deg) translateY(-22px)" 
+      hi7.style.transition="transform 0.00005s linear"
+    }
+       return (hi1sost=1,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
       }
       else{
-        hi3.style.transform="rotate(360deg) translateY(-22px)" 
-        hi3.style.transition="transform 0.00005s linear"
-      return hi3sost=0;
+      hi1.style.transform="rotate(360deg) translateY(-22px)" 
+      hi1.style.transition="transform 0.00005s linear"
+      hi2.style.transform="rotate(360deg) translateY(-22px)" 
+      hi2.style.transition="transform 0.00005s linear"
+      hi3.style.transform="rotate(360deg) translateY(-22px)" 
+      hi3.style.transition="transform 0.00005s linear"
+      hi4.style.transform="rotate(360deg) translateY(-22px)" 
+      hi4.style.transition="transform 0.00005s linear"
+      hi5.style.transform="rotate(360deg) translateY(-22px)" 
+      hi5.style.transition="transform 0.00005s linear"
+      hi6.style.transform="rotate(360deg) translateY(-22px)" 
+      hi6.style.transition="transform 0.00005s linear"
+      hi7.style.transform="rotate(360deg) translateY(-22px)" 
+      hi7.style.transition="transform 0.00005s linear"
+      return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
 }
 }
 
+
+
+function rotateli2(){
+  if (hi2sost==0){  
+    hi2.style.transform="rotate(180deg) translateY(22px)";
+    hi2.style.transition="transform 0.00005s linear";
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+    if (hi3sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi4sost==1){
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+      }
+    if (hi5sost==1){
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+      }
+    if (hi6sost==1){
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+      }
+    if (hi7sost==1){
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=0,hi2sost=1,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+    }
+    else{
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+  }
+}
+
+
+
+function rotateli3(){
+  if (hi3sost==0){  
+    hi3.style.transform="rotate(180deg) translateY(22px)";
+    hi3.style.transition="transform 0.00005s linear";
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+    if (hi2sost==1){  
+      hi2.style.transform="rotate(360deg) translateY(-22px)";
+      hi2.style.transition="transform 0.00005s linear";
+    }
+    if (hi1sost==1){
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+      }
+    if (hi4sost==1){
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+      }
+    if (hi5sost==1){
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+      }
+    if (hi6sost==1){
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+      }
+    if (hi7sost==1){
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=0,hi2sost=0,hi3sost=1,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+    }
+    else{
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+  }
+}
 let hi4sost=0;
 let li4=document.querySelector(".catalog__li4")
 let hi4=document.getElementById("hicon4")
@@ -68,14 +183,51 @@ function rotateli4(){
   if (hi4sost==0){  
     hi4.style.transform="rotate(180deg) translateY(22px)";
     hi4.style.transition="transform 0.00005s linear"
-    return hi4sost=1;
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+      if (hi2sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
       }
+    if (hi3sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi5sost==1){
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+      }
+    if (hi6sost==1){
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+      }
+    if (hi7sost==1){
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=1,hi5sost=0,hi6sost=0,hi7sost=0)
+     }
       else{
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
         hi4.style.transform="rotate(360deg) translateY(-22px)" 
         hi4.style.transition="transform 0.00005s linear"
-      return hi4sost=0;
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+  }
 }
-}
+
 
 let hi5sost=0;
 let li5=document.querySelector(".catalog__li5")
@@ -85,14 +237,50 @@ li5.addEventListener("click",rotateli5)
 function rotateli5(){
   if (hi5sost==0){  
     hi5.style.transform="rotate(180deg) translateY(22px)";
-    hi5.style.transition="transform 0.00005s linear"
-    return hi5sost=1;
+    hi5.style.transition="transform 0.00005s linear";
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+      if (hi2sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi3sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi4sost==1){
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+      }
+    if (hi6sost==1){
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+      }
+    if (hi7sost==1){
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=1,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=1,hi6sost=0,hi7sost=0)
       }
       else{
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
         hi5.style.transform="rotate(360deg) translateY(-22px)" 
         hi5.style.transition="transform 0.00005s linear"
-      return hi5sost=0;
-}
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+  }
 }
 
 let hi6sost=0;
@@ -103,14 +291,50 @@ li6.addEventListener("click",rotateli6)
 function rotateli6(){
   if (hi6sost==0){  
     hi6.style.transform="rotate(180deg) translateY(22px)";
-    hi6.style.transition="transform 0.00005s linear"
-    return hi6sost=1;
+    hi6.style.transition="transform 0.00005s linear";
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+      if (hi2sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi3sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi4sost==1){
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+      }
+    if (hi5sost==1){
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+      }
+    if (hi7sost==1){
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=1,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=1,hi7sost=0)
       }
       else{
+        hi1.style.transform="rotate(360deg) translateY(-22px)" 
+        hi1.style.transition="transform 0.00005s linear"
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
         hi6.style.transform="rotate(360deg) translateY(-22px)" 
         hi6.style.transition="transform 0.00005s linear"
-      return hi6sost=0;
-}
+        hi7.style.transform="rotate(360deg) translateY(-22px)" 
+        hi7.style.transition="transform 0.00005s linear"
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=0)
+  }
 }
 
 let hi7sost=0;
@@ -122,13 +346,47 @@ function rotateli7(){
   if (hi7sost==0){  
     hi7.style.transform="rotate(180deg) translateY(22px)";
     hi7.style.transition="transform 0.00005s linear"
-    return hi7sost=1;
+    if (hi1sost==1){  
+      hi1.style.transform="rotate(360deg) translateY(-22px)";
+      hi1.style.transition="transform 0.00005s linear";
+    }
+      if (hi2sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi3sost==1){
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+      }
+    if (hi4sost==1){
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+      }
+    if (hi5sost==1){
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+      }
+    if (hi6sost==1){
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
+      }
+      return (hi1sost=1,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0,hi7sost=1)
       }
       else{
+        hi2.style.transform="rotate(360deg) translateY(-22px)" 
+        hi2.style.transition="transform 0.00005s linear"
+        hi3.style.transform="rotate(360deg) translateY(-22px)" 
+        hi3.style.transition="transform 0.00005s linear"
+        hi4.style.transform="rotate(360deg) translateY(-22px)" 
+        hi4.style.transition="transform 0.00005s linear"
+        hi5.style.transform="rotate(360deg) translateY(-22px)" 
+        hi5.style.transition="transform 0.00005s linear"
+        hi6.style.transform="rotate(360deg) translateY(-22px)" 
+        hi6.style.transition="transform 0.00005s linear"
         hi7.style.transform="rotate(360deg) translateY(-22px)" 
         hi7.style.transition="transform 0.00005s linear"
-      return hi7sost=0;
-}
+        return (hi1sost=0,hi2sost=0,hi3sost=0,hi4sost=0,hi5sost=0,hi6sost=0)
+  }
 }
 
 let wrap1=document.querySelector(".catalog__wrap1")

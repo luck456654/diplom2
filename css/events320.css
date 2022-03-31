@@ -1,0 +1,30 @@
+@media (max-width: 320px) {
+    .events__slider-slide{
+        width: 100%!important;
+    }
+    .events__container {
+        padding: 29px 15px 53px 14px;
+    }
+    .events__slider-image {
+        margin-bottom: 10px;
+    }
+    .events__info-text {
+        margin-right: 9px;
+    }
+    .events__slidecontent {
+        padding: 7px 8px 4px 21px
+    }
+    .events__text-desc {
+        width: 251px;
+        line-height: 32px;
+    }
+    .events__slider-info {
+        margin-bottom: 9px;
+    }
+    .events__slider-link {
+        position: relative;
+        top: -6px;
+        left: 5px;
+    }
+    
+}

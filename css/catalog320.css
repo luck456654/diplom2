@@ -1,0 +1,78 @@
+@media (max-width: 320px) {
+    .catalog__inner-list {
+        column-count: 1!important;
+        height: 795px;
+    }
+    .catalog__ul{
+        width: 290px;
+        margin-bottom: -14px;
+    }
+    .catalog{
+        padding: 50px 5px 5px 0px;
+    }
+    .catalog__desc{
+        display: none;
+    }
+    .catalog__heading-text-wrap{
+        font-size: 18px;
+        width: 290px;
+    }
+    .catalog__item{
+        width: 290px;
+        padding: 5px 5px 5px -15px!important;
+        }
+    .catalog__question {
+        width: 194px;
+        
+   
+    }
+    .catalog__heading{
+        padding: 16px 5px 24px 0px;
+    } 
+    .catalog__title {
+        margin-bottom: -9px;
+    }
+    .catalog__icon{
+        width: 30px;
+        height: 30px;
+    }
+  
+   .catalog__content-wrap {
+    padding-top: 19px;
+}
+    .catalog__painter-image {
+        position: relative;
+        top: 50px;
+        width: 290px;
+        height: 183px;
+        margin-bottom: 37px;
+}
+.catalog__description {
+    width: 311px;
+}
+.catalog__description {
+    width: 287px;
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+    letter-spacing: 0.01px;
+    line-height: 32px;
+
+}
+.catalog__icon{
+    margin-right: 7px;
+}
+.catalog__cub {
+    width: 76px;
+    height:118px;
+}
+.catalog__wrapper-cub{
+    width: 90px;
+    height: 130px;
+    padding-right: 7px;
+    margin-right: 25px;
+    }
+.catalog__h3 {
+    font-size: 18px;
+}   
+}
