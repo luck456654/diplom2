@@ -1,4 +1,8 @@
 @media (max-width: 320px) {
+    .catalog{
+        width: 100%;
+        overflow: hidden;
+    }
     .catalog__inner-list {
         column-count: 1!important;
         height: 795px;
