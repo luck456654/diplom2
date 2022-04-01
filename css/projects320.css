@@ -1,6 +1,8 @@
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .projects{
         padding-top: 29px;
+        width: 100%;
+        overflow: hidden;
     }
     .projects__title{
         margin-bottom: -4px;
@@ -11,9 +13,7 @@
     .projects__partners-title {
         margin-bottom: 10px;
     }
-    .partners-slider__slide {
-        width: 188px!important;
-        }
+    
     .partners-slider{
         margin-bottom: -59px;
     }
@@ -24,6 +24,13 @@
     }
     .contacts__tel-ring{
         margin-bottom: -6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #9D5CD0;
+        border-width: 2px;
     }
     .contacts__map{
         height: 320px!important;
@@ -33,4 +40,26 @@
         position: relative;
         top: -102px;
     }
-}
+    .partners-slider__slide {
+        width: 97%!important;
+        }
+    .contacts__form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: baseline;
+     }
+     .contacts__tel{
+         display: none;
+         border-color: #9D5CD0;
+     }
+     .contacts__tel-ring{
+        border-color: #9D5CD0;
+        border-width: 2px;
+    }
+    }
+    @media (max-width: 320px) {
+    .partners-slider__slide {
+        width: 95%!important;
+        }
+    }

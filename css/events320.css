@@ -1,6 +1,7 @@
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .events__slider-slide{
         width: 100%!important;
+        overflow: hidden;
     }
     .events__container {
         padding: 29px 15px 53px 14px;
@@ -27,4 +28,5 @@
         left: 5px;
     }
     
+      
 }

@@ -22,7 +22,7 @@ const swiperpartners = new Swiper('.js-partners-slider', {
     },
     breakpoints:{
       611:{
-          slidesPerView:2,
+          slidesPerView:1,
           spaceBetween:14,
       },
        971:{

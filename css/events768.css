@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
             .events__slider-slide{
                 width: 323px!important;
             }
@@ -20,4 +20,23 @@
             .events-slidertitle {
                 width: 251px!important;
             }
+            .events__slider-slider{
+                width: 112%!important;
+               }  
+            .events__slider {
+                position: relative;
+                overflow: hidden;
+                width: 67%;
          }
+        }
+         @media (max-width: 768px) {
+            .events__slider-slider{
+                width: 99%!important;
+            }  
+            .events__slider {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+         }
+         
+         }         
