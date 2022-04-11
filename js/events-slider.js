@@ -21,21 +21,17 @@ const swiperevents = new Swiper('.js-events-slider', {
     el: '.swiper-scrollbar',
   },
   breakpoints:{
-    611:{
-        slidesPerView:2,
-        spaceBetween:34,
-    },
-    1023:{
+    768:{
         slidesPerView:2,
         spaceBetween:27,
-        },
-    1919:{
+       },
+    1024:{
+      slidesPerView:3,
+      spaceBetween:27,
+  },
+    1280:{
           slidesPerView:3,
-          spaceBetween:50,
-      },    
-    1920:{
-          slidesPerView:3,
-          spaceBetween:50,
+          spaceBetween:27,
       },
   }
 });

@@ -2,6 +2,9 @@
    size: 1px;
    width: 100%;
 }
+.contacts__soc-icon:hover{
+    opacity: 0.4;
+}
 .contacts__content{
     display: flex;
     flex-direction: row;
@@ -13,11 +16,23 @@
     justify-content: inherit;
     align-items: center;
 }
+.contacts__name:hover, .contacts__name:focus, .contacts__ring:hover, .contacts__ring:focus {
+    background-color: #EAEAEA;
+}
+.contacts__tel:hover, .contacts__tel:focus{
+    color: white;
+    background-color: #9D5CD0;
+    }
+.contacts__tel:focus{
+        color: white;
+        background-color: #9D5CD0;
+        border: 3px solid #D1A9F0;
+        }    
 .contacts__input{
 border: 1px solid #333333;
 box-sizing: border-box;
 border-radius: 100px;
-width: 270px;
+width: 25%;
 height: 50px;
 }
 .contacts__form{
@@ -36,6 +51,8 @@ height: 50px;
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 77px;
+    width: 100%;
+    white-space: wrap;
     }
 
 .contacts__tel{
@@ -83,6 +100,8 @@ height: 50px;
     line-height: 25px;
     text-align: center;
     color: #9D5CD0;
+    width: 20.7rem;
+    margin-right: min(8%);
 }
 .contacts__soc-title{
     font-family: 'Open Sans';
@@ -92,13 +111,14 @@ height: 50px;
     line-height: 32px;
     color: #333333;
     position: relative;
-    top: -35px;
-    left: 56px;
+    top: -26px;
+    left: 0px;
+    white-space: nowrap;
    }
    .contacts__soc-wrapper{
      position: relative;
-     top: -67px;
-     left: 59px;
+     top: -52px;
+     left: 2px;
      margin-bottom: -30px;
    }
 .contacts__soc-icon{
@@ -112,7 +132,16 @@ height: 50px;
 }
 .contacts__house{
     margin-bottom: 86px;
-}
+    white-space: nowrap;
+    }
+.contacts__name{
+    margin-right: min(-4%);
+    width: 17rem;
+    }  
+.contacts__ring{
+    margin-right: min(-4%);
+    width: 17rem;
+    }       
 @media(max-width:1280px) {
     .contacts__content{
         display:flex;
@@ -128,12 +157,12 @@ height: 50px;
         width: 271px;
         }
     .contacts__name{
-        margin-right: -79px;
+       margin-right: 5%;
     }
     .contacts__tel{
         position: relative;
         left: 0px;
-        width: 316px;
+        
         margin-bottom: -3px;
     } 
     .contacts__ring{

@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     .projects{
-        padding-top: 29px;
+        padding-top: 74px;
         width: 100%;
         overflow: hidden;
     }
@@ -15,7 +15,7 @@
     }
     
     .partners-slider{
-        margin-bottom: -59px;
+        margin-bottom: -57px;
     }
     .contacts__ring {
         position: relative;
@@ -56,6 +56,9 @@
      .contacts__tel-ring{
         border-color: #9D5CD0;
         border-width: 2px;
+    }
+    .events__next{
+        display: none;
     }
     }
     @media (max-width: 320px) {

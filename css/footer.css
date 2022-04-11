@@ -17,10 +17,19 @@
     }
 .footer__soc-icon:not(:last-child){
     margin-right: 21px;
-}   
+} 
+.footer__backsocicon:hover{
+    fill: white;
+}  
+.footer__backsocicon:active{
+    fill: #9D5CD0!important;
+} 
+.footer__backsocicon{
+    fill: #CACACA;
+} 
 @media(max-width:1280px) {
 .footer__container {
-    padding: 43px 50px;
+    padding: 48px 51px;
 }
 .footer__soc-icon{
     width: 60px;
@@ -30,6 +39,11 @@
     margin-right: 31px;
         }  
     }
+    @media(max-width:1023px) {    
+    .footer__container {
+        padding: 44px 51px;
+    }
+}
 @media(max-width:440px) {
     .footer__logo{
         width: 97px;
@@ -56,5 +70,6 @@
         margin-bottom: 21px;
     }
 }
+
         
         

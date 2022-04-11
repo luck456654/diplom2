@@ -1,4 +1,7 @@
 @media (max-width: 1280px) {
+    .catalog {
+        padding: 80px -1px 52px;
+    }    
 .catalog__painter-image{
     width:437px;
     height:274px;
@@ -11,17 +14,17 @@
     width: 438px;
 }
 .catalog__item {
-    margin-right: 160px;
+    margin-right: 98px;
 }
 .catalog__inner-list{
     column-count: 2!important;
-    height: 411px;
+    height: 386px;
 }
 .catalog__item {
     width: 100%;
 }
 .catalog__content-wrap {
-    padding-top: 22px;
+    padding-top: 29px;
 }
 .catalog__cub {
     width: 173px;

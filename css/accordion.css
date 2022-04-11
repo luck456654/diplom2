@@ -8,42 +8,45 @@
   .catalog__item{
     margin-right: 60px;
   }
+ 
+
   .catalog__heading {
     position: relative;
     display: block;
     width: 100%;
     margin-bottom: 0;
     margin-top: -1px;
-    border-top: 1px solid #CACACA;
     border-bottom: 1px solid #CACACA;
     border-right: none;
     border-left: none;
-    padding: 41px 120px 41px 0;
+    padding: 40px 120px 41px 0;
     font-size: 24px;
     text-align: left;
     background-color: transparent;
     cursor: pointer;
     transition: color 0.3s ease, border-color 0.3s ease;
+    border-top: 1px solid #CACACA;
   }
-  
+  .catalog__heading:hover  .catalog__heading:focus{
+    border: 1px solid var(--violet-middle)!important;
+    }
   .catalog__question:first-child .catalog__heading:hover,
   .catalog__heading:hover {
     border-color: var(--violet-middle);
-  }
+    }
   
   .catalog__heading:hover,.catalog__question:first-child .catalog__heading:active,
   .catalog__heading:active,
   .is-active.catalog__question:first-child .catalog__heading,
   .is-active.catalog__question .catalog__heading {
     border-color: var(--violet-dark);
+    
   }
   
   .catalog__heading-text {
     position: relative;
   }
-  .catalog__ul:hover,.catalog__ul:active,.catalog__ul:focus{
-    border-top: 2px #7943A4 solid!important;
-  }
+  
   .catalog__heading-text-wrap{
     color:#333333;
   }
@@ -124,6 +127,9 @@
     fill: var(--violet-ultra-light);
     stroke: var(--violet-middle);
   }
+  .catalog__heading:hover .catalog__heading:focus{
+    border: 1px #9D5CD0 solid;
+  }
   
   .catalog__content {
     overflow: hidden;
@@ -139,7 +145,7 @@
   
   .catalog__content-wrap {
     padding-top: 26px;
-    padding-bottom: 0px;
+    padding-bottom: 21px;
   }
   
   .text {
@@ -149,14 +155,14 @@
   
   .catalog__inner-list {
     width: 91%;
-    column-count: 3;
-    height: 320px;
+    column-count: 2;
+    height: 288px;
+    margin-bottom: 4px
   }
   
   .catalog__ul {
     padding: 2px 0px 12px;
-    border-top: 1px solid #CACACA;
-  }
+    }
   
   .catalog__painter-link.tab-active {
     color: var(--violet-dark);
@@ -234,6 +240,8 @@
   
   .link__text {
     position: relative;
+    white-space: nowrap;
+    margin-right: 10px;
   }
   
   .link__icon {
@@ -297,11 +305,19 @@
     transform: scaleX(0);
   }
   .catalog__question{
-    width: 801px;
+    width: 41.72vw;
   } 
-  @media (max-width: 1024px) {
+  @media (max-width: 1701px) {
     .catalog__question {
-      width: calc(100% / 2 - 30px);
+    width: 30.72vw;
     }
+  .catalog__inner-list {
+    height: 388px;
+    }
+  }
+  @media (max-width: 1395px) {
+    .link__text {
+      margin-right: -26px;
+  }
   }
   

@@ -5,7 +5,7 @@
     }
     .catalog__inner-list {
         column-count: 1!important;
-        height: 795px;
+        height: 768px;
     }
     .catalog__ul{
         width: 290px;
@@ -46,7 +46,7 @@
 }
     .catalog__painter-image {
         position: relative;
-        top: 50px;
+        top: 54px;
         width: 290px;
         height: 183px;
         margin-bottom: 37px;
@@ -78,5 +78,11 @@
     }
 .catalog__h3 {
     font-size: 18px;
-}   
+} 
+.catalog__painter-name {
+    margin-bottom: 5px;
+}  
+.contacts__input {
+  padding: 20px 5px 17px 23px;
+}
 }

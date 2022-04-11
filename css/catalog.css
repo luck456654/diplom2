@@ -2,7 +2,7 @@
     fill:#D1A9F0;
 }
 .catalog {
-    padding: 80px 0px 65px
+    padding: 80px 0px 75px
 }
 .catalog__title{
     margin-bottom: -7px;
@@ -103,7 +103,7 @@
     margin-bottom: 40px!important;
 }
 .catalog__painter-image{
-    margin-bottom: 1px;
+    margin-bottom: -5px;
 }
 .catalog__painter-name{
     font-family: 'Open Sans';
