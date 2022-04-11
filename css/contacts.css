@@ -88,8 +88,7 @@ height: 50px;
     margin-right: 80px; 
 }
 .contacts__input{
-    margin-right: 21px;
-    padding: 21px;
+   padding: 21px;
 }
 .contacts__tel{
     width: 328px;
@@ -136,12 +135,10 @@ height: 50px;
     white-space: nowrap;
     }
 .contacts__name{
-    margin-right: min(-4%);
-    width: 17rem;
+  width: 17rem;
     }  
 .contacts__ring{
-    margin-right: min(4%);
-    width: 17rem;
+  width: 17rem;
     }       
 @media(max-width:1280px) {
     .contacts__content{
