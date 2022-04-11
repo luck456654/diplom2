@@ -53,6 +53,7 @@ height: 50px;
     margin-bottom: 77px;
     width: 100%;
     white-space: wrap;
+    flex-wrap: wrap;
     }
 
 .contacts__tel{
@@ -139,7 +140,7 @@ height: 50px;
     width: 17rem;
     }  
 .contacts__ring{
-    margin-right: min(-4%);
+    margin-right: min(4%);
     width: 17rem;
     }       
 @media(max-width:1280px) {
