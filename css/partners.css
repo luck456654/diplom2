@@ -57,7 +57,7 @@
 }
 .projects{
     padding-top: 67px;
-    padding-bottom: 73px;
+    padding-bottom: 83px;
 }
 
 @media(max-width:1280px) {
@@ -74,8 +74,7 @@
     }
     .projects__wrapper-text {
         margin-bottom: 30px!important;
-        width: 932px!important;
-    }
+        }
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: -67px
     }
@@ -97,9 +96,7 @@
         padding-bottom: 14px;
     }
     
-    .projects__wrapper-text {
-       width: 691px!important;
-}
+ 
 
 
 }

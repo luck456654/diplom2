@@ -1,20 +1,24 @@
-.contacts__hr{
-   size: 1px;
-   width: 100%;
+.contacts{
+   border-top: 1px solid #CACACA;
 }
-.contacts__soc-icon:hover{
+.contacts__link:hover,.contacts__link:focus{
     opacity: 0.4;
+}
+.contacts__link:active svg{
+border: 1px solid #9643A4;
+border-radius: 100px;
 }
 .contacts__content{
     display: flex;
     flex-direction: row;
-    padding: 15px 1px;
+    align-items: center;
 }
 .contacts__form{
     display: flex;
     flex-direction: row;
     justify-content: inherit;
     align-items: center;
+    flex-wrap: wrap;
 }
 .contacts__name:hover, .contacts__name:focus, .contacts__ring:hover, .contacts__ring:focus {
     background-color: #EAEAEA;
@@ -32,8 +36,9 @@
 border: 1px solid #333333;
 box-sizing: border-box;
 border-radius: 100px;
-width: 25%;
 height: 50px;
+width: 150px;
+flex-grow: 1;
 }
 .contacts__form{
     display: flex;
@@ -50,15 +55,13 @@ height: 50px;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    margin-bottom: 77px;
-    width: 100%;
+    width: calc(900 / 1700 * 100%);
+    margin-right: auto;
     white-space: wrap;
     flex-wrap: wrap;
     }
 
 .contacts__tel{
-width: 258px;
-height: 25px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
@@ -71,7 +74,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 background-color: white;
-height: 50px;
+border-radius: 100px;
     }
 .contacts__shourum{
     font-family: 'Open Sans';
@@ -81,27 +84,16 @@ height: 50px;
     margin-bottom: -5px;
 }
 .contacts__container{
-    padding-top: 8px;
+    padding-top: 26px;
+    padding-bottom: 37px;
     
 }
 .contacts__text{
     margin-right: 80px; 
 }
 .contacts__input{
-   padding: 21px;
-}
-.contacts__tel{
-    width: 328px;
-    text-align: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #9D5CD0;
-    width: 20.7rem;
-    margin-right: min(8%);
+   padding: 10px 21px;
+   margin-right: 20px;
 }
 .contacts__soc-title{
     font-family: 'Open Sans';
@@ -110,17 +102,11 @@ height: 50px;
     font-size: 24px;
     line-height: 32px;
     color: #333333;
-    position: relative;
-    top: -26px;
-    left: 0px;
     white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 6px;
    }
-   .contacts__soc-wrapper{
-     position: relative;
-     top: -52px;
-     left: 2px;
-     margin-bottom: -30px;
-   }
+  
 .contacts__soc-icon{
     width: 39px;
     height: 39px;
@@ -128,18 +114,24 @@ height: 50px;
 }
 .contacts__map{
     position: relative;
-    top: -60px;
+    width: 100%;
+    height: 763px;
 }
 .contacts__house{
-    margin-bottom: 86px;
-    white-space: nowrap;
+   white-space: nowrap;
     }
-.contacts__name{
-  width: 17rem;
-    }  
-.contacts__ring{
-  width: 17rem;
-    }       
+.contacts__but-ring{
+    border: 2px solid #9D5CD0;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: white;
+    color: #9D5CD0;
+    }
+.contacts__but-ring:hover{
+    background-color: #9D5CD0;
+    color: white;
+}
+   
 @media(max-width:1280px) {
     .contacts__content{
         display:flex;
@@ -151,12 +143,7 @@ height: 50px;
     .contacts__text{
         margin-bottom: 30px;
     } 
-    .contacts__input {
-        width: 271px;
-        }
-    .contacts__name{
-       margin-right: 5%;
-    }
+   
     .contacts__tel{
         position: relative;
         left: 0px;
@@ -165,15 +152,10 @@ height: 50px;
     } 
     .contacts__ring{
         position: relative;
-        width: 270px;
+       
         left: 62px;
     }   
-    .contacts__soc{
-        position: relative;
-        left: -58px;
-        top: -49px;
-    } 
-    .contacts__map{
+       .contacts__map{
         height: 671px;
     }   
 }
@@ -182,17 +164,18 @@ height: 50px;
             flex-wrap: wrap;
         }
         .contacts__name{
-            width:323px;
+         
             margin-bottom: 14px;
         }
         .contacts__ring{
-            width:323px;
+           
             margin-right: 62px;
             margin-bottom: 15px;
         }
         .contacts__map {
             height: 701px;
         }
+       
    }
    @media(max-width:610px) {
     .contacts__content {
@@ -213,11 +196,11 @@ height: 50px;
         margin-bottom: 12px;
     }
     .contacts__name{
-        width: 289px;
+      
         height: 25px;
     }
     .contacts__ring{
-        width: 289px;
+      
         height: 25px;
         position: relative;
         left: 0;
@@ -226,7 +209,7 @@ height: 50px;
     .contacts__tel-ring{
         display: block;
         border: #C299E1 1px solid;
-        width: 126px;
+     
         height: 20px;
         font-size: 12px;
         padding: 21px 33px;

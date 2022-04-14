@@ -3,34 +3,9 @@
     position: relative;
     left: 40px;
 }
-.contacts__tel {
-    width: 316px;
-    position: relative;
-    top: -5px;
-    margin-bottom: 4px;
-}
+
 .contacts__soc-title {
    margin-bottom: 39px;
 }
-.contacts__input {
-    width: 47%!important;
-}
-@media (max-width: 767px) {
-.contacts__name {
-  margin-bottom: 22px;
-  
-}
-.contacts__tel-ring:hover{
-    background: #9D5CD0;
-    color: white;
-}
-.contacts__tel-ring:focus{
-    background: #9D5CD0;
-    border: 3px solid #D1A9F0;
-    color: white;
-}
-.contacts__tel-ring{
-border-radius: 100px;
-margin-bottom: 0px!important;
-}
+
 }
