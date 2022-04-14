@@ -131,7 +131,18 @@ border-radius: 100px;
     background-color: #9D5CD0;
     color: white;
 }
-   
+.contacts__input-effects:hover,.contacts__input-effects:focus{
+    background-color: #EAEAEA;;
+}
+.contacts__but-efects:hover{
+    background-color: #9D5CD0;
+    color:white;
+}
+.contacts__but-efects:focus{
+    background-color: #9D5CD0;
+    color:white;
+    border: 3px solid #D1A9F0;
+}
 @media(max-width:1280px) {
     .contacts__input {
         width: 72px;
