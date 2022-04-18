@@ -27,3 +27,22 @@
 window.setTabs=setTabs;
     
 })();
+
+let empty=document.querySelectorAll(".catalog__show-empty")
+let contentEmpty=document.querySelector(".catalog__empty")
+let domeniko=document.querySelector(".catalog__domeniko")
+
+
+empty.forEach((empty) => {empty.addEventListener("click",showEmpty)})
+
+function showEmpty(){
+    contentEmpty.style.display="block";
+    domeniko.style.display="none";
+}
+let dominico=document.querySelector(".catalog__show-dominico")
+dominico.addEventListener("click",showDomenico)
+
+function showDomenico(){
+    contentEmpty.style.display="none";
+    domeniko.style.display="block";
+}

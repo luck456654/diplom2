@@ -36,14 +36,6 @@
     width: 46px;
     height: 46px;
 }
-.catalog__tab-content{
-    display: none;
-}
-.catalog__tab-content.is-active{
-    display: block;
-    animation: fadeIn;
-    animation-duration: 0.5s;
-}
 .catalog__countries-btn::before{
     content: "";
     position: absolute;
@@ -125,7 +117,7 @@
 }
 .catalog__content-left{
     margin-right: 49px;
-}
+    }
 .catalog__cub{
     width: 251px;
     height: 165px;
@@ -163,6 +155,29 @@
     width: 276px;
 }
 .catalog__card-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9D5CD0;
+}
+.catalog__empty{
+    display: none;
+}
+.catalog__unknown-artist{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.catalog__unknown-desck{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.catalog-link{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
