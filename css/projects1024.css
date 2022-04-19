@@ -1,8 +1,9 @@
 @media (max-width: 1919px) {
 .projects {
-    padding-top: 37px;
+    padding-top: 81px;
 }
 .projects__text{
     margin-bottom: -9px;
+    max-width: 100%;
 }
 }

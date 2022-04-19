@@ -161,6 +161,7 @@ border-radius: 100px;
     } 
     .contacts__form {
        width: 100%;
+       margin-bottom: 34px;
     }
     .contacts__tel{
         position: relative;

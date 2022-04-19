@@ -13,10 +13,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 52px 48px;
+    padding: 41px 48px;
     }
-.footer__soc-icon:not(:last-child){
-    margin-right: 21px;
+.footer__soc-icon{
+    width: 50px;
+    height: 50px;
+}   
+.footer__backsocicon:not(:last-child){
+    margin-right: 15px!important;
+    
 } 
 .footer__backsocicon:hover{
     fill: white;
@@ -29,14 +34,14 @@
 } 
 @media(max-width:1280px) {
 .footer__container {
-    padding: 48px 51px;
+    padding: 42px 51px;
 }
 .footer__soc-icon{
     width: 60px;
     height: 60px;
     }
-.footer__soc-icon:not(:last-child){
-    margin-right: 31px;
+.footer__backsocicon:not(:last-child){
+    margin-right: 31px!important;
         }  
     }
     @media(max-width:1023px) {    

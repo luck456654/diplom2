@@ -129,8 +129,7 @@
 }
 
 .accordion__content-wrap {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding: 26px 177px 57px 5px;
 }
 
 .text {
@@ -139,9 +138,26 @@
 }
 
 .accordion__inner-list {
-  width: 91%;
+  width: 120%;
   column-count: 3;
 }
 .accordion__painter-link.tab-active {
   color: var(--violet-dark);
+}
+@media (max-width:1280px) {
+  .accordion__inner-list{
+    column-count: 2;
+  }
+  .accordion__heading {
+    max-width: 77%;
+  }
+  .accordion__content-wrap {
+    padding: 26px 13px 28px 5px;
+}
+.accordion__heading {
+  max-width: 100%;
+}
+.nav-btn--big{
+  display: none!important;
+}
 }

@@ -35,3 +35,64 @@ const swiperevents = new Swiper('.js-events-slider', {
       },
   }
 });
+
+
+let butnext=document.querySelector(".events__slider__next")
+let butprev=document.querySelector('.events__slider__prev')
+let sost=1;
+
+butnext.addEventListener("click",sostadd)
+butprev.addEventListener("click",sostreduce)
+
+function sostadd(){
+  sost=sost+1;
+  if (sost<=1){
+    butprev.style="display:none!important";
+    butnext.style="display:block!important";
+  }
+  if (sost>=2){
+    butprev.style="display:block!important";
+    butnext.style="display:block!important";
+   }
+  if (sost>=3){
+    butprev.style="display:block!important";
+    butnext.style="display:none!important";
+  }
+  return sost;
+ 
+}
+function sostreduce(){
+  sost=sost-1;
+  if (sost<=1){
+    butprev.style="display:none!important";
+    butnext.style="display:block!important";
+  }
+  if (sost>=2){
+    butprev.style="display:block!important";
+    butnext.style="display:block!important";   
+  }
+  if (sost>=3){
+    butprev.style="display:block!important";
+    butnext.style="display:none!important";
+  }
+  return sost;
+  
+}
+
+if (sost<=1){
+  butprev.style="display:none!important";
+  butnext.style="display:block!important";
+}
+if (sost>=2){
+  butprev.style="display:block!important";
+  butnext.style="display:block!important";
+}
+if (sost>=3){
+  butprev.style="display:block!important";
+  butnext.style="display:none!important";
+}
+
+if (screen.width<1280){
+  butprev.style="display:none!important";
+  butnext.style="display:none!important";
+}
