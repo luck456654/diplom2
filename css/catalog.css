@@ -263,3 +263,30 @@ margin: 0;
     color: #333333;
 }
 }
+@media (max-width:1023px) {
+    .accordion__empty-paint {
+           width: 251px;
+           height: 165px;
+   }
+   .accordion__empty-wrapper {
+      width:275px;
+      height:189px;
+   }
+   .catalog__empty-h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+   }
+   .catalog__empty-texts {
+    width: 275px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+   }
+   }

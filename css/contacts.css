@@ -293,4 +293,31 @@ border-radius: 100px;
         top: -92px;   
     }
    }
-    
+   @media (max-width: 1023px){
+.contacts__content {
+    padding: 22px 1px}
+.contacts__input {
+ margin-bottom: 11px;
+}
+.contacts__but-ring{
+    max-width: 317px;
+    margin-bottom: 0px;
+}
+.contacts__map{
+    width: 100%;
+    height: 710px!important;
+    position: relative;
+    top: -92px;   
+}
+}
+@media (max-width: 767px){
+.contacts__container {
+    padding-top: 13px!important;
+}
+.contacts__input {
+    margin-bottom: 21px;
+}
+.contacts__tel-ring {
+    margin-bottom: -20px!important;
+}
+}    
