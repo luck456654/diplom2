@@ -32,7 +32,7 @@
 .footer__backsocicon{
     fill: #CACACA;
 } 
-@media(max-width:1280px) {
+@media(max-width:1279px) {
 .footer__container {
     padding: 42px 51px;
 }
@@ -43,15 +43,20 @@
 .footer__backsocicon:not(:last-child){
     margin-right: 31px!important;
         }  
+.contacts__soc-wrapper{
+    margin-bottom: 40px;
+}        
     }
     @media(max-width:1023px) {    
     .footer__container {
-        padding: 44px 51px;
+        padding: 44px 51px 20px;
+        position: relative;
+        top: -32px;
     }
 }
 
 
-@media(max-width:768px) {
+@media(max-width:767px) {
     .footer {
         background-color: black;
         position: relative;
