@@ -85,7 +85,7 @@
         display: block!important;
     }
     .contacts__map{
-        height: 750px!important;
+        height: 756px!important;
     }
 }
 @media(max-width:970px) {
@@ -104,6 +104,11 @@
  
 
 
+}
+@media(max-width:1023px) {
+.contacts__map{
+    height: 756px!important;
+}
 }
 @media(max-width:610px) {
     .partners-slider__slide{

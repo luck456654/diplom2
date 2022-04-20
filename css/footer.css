@@ -44,12 +44,12 @@
     margin-right: 31px!important;
         }  
 .contacts__soc-wrapper{
-    margin-bottom: 40px;
+    margin-bottom: -5px;
 }        
     }
     @media(max-width:1023px) {    
     .footer__container {
-        padding: 44px 51px 20px;
+        padding: 41px 51px 20px;
         position: relative;
         top: -32px;
     }
@@ -93,7 +93,7 @@
         height: 50px;
     }
     .footer__soc-wrapper {
-        margin-bottom: 21px;
+        margin-bottom: 11px;
     }
 }
         
