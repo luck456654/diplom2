@@ -5,9 +5,10 @@
         overflow: hidden;
     }
     .projects__title{
-        margin-bottom: -4px;
+        margin-bottom: 20px;
     }
     .projects__text {
+        margin-top: 0;
         margin-bottom: 20px;
     }
     .projects__partners-title {

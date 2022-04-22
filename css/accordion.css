@@ -171,15 +171,11 @@
 .accordion__content-wrap {
   padding: 26px 13px 55px 5px;
 }
-.accordion__heading {
-  max-width: 89%;
-}
 }
 @media (max-width: 767px){
   .accordion__heading {
     padding: 19px 24px 20px 0px;
-    max-width: 40%;
-  }
+    }
   .accordion__heading-text-wrap {
     font-size: 18px!important;
 }

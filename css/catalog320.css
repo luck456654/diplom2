@@ -47,15 +47,11 @@
     .catalog__painter-image {
         position: relative;
         top: 54px;
-        width: 290px;
-        height: 183px;
+        max-width: 300%;
+        height: auto;
         margin-bottom: 37px;
 }
 .catalog__description {
-    width: 311px;
-}
-.catalog__description {
-    width: 287px;
     position: relative;
     top: 4px;
     font-size: 16px;

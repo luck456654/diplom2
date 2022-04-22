@@ -3,12 +3,12 @@
         padding: 80px -1px 52px;
     }    
 .catalog__painter-image{
-    width:437px;
+    width:calc(437px / 924 * 100%);
     height:274px;
     margin-bottom: -4px;
 }
 .catalog__description {
-    width: 436px;
+    width: auto;
 }
 .catalog__question{
     width: 438px;
@@ -39,4 +39,7 @@
 .catalog__card-text{
     width: 207px;
 }
+.catalog__accordion{
+    width: calc(437 / 924 * 100%);
+} 
 }
