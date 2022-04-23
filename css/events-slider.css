@@ -88,7 +88,7 @@
 }
 .nav-btn--big{
     position: absolute;
-    top: 50%;
+    top: 48.5%;
     transform: translateY(-50%);
 }
 
@@ -103,6 +103,9 @@ z-index: 5;
 .nav-btn--big.nav-btn--disabled{
     opacity: 0;
 }
+.events__slider__prev{
+    left: -1.4%;
+} 
 @media(max-width:1280px){
     .nav-btn--big{
         display: none!important;

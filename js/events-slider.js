@@ -92,7 +92,32 @@ if (sost>=3){
   butnext.style="display:none!important";
 }
 
-if (screen.width<1280){
-  butprev.style="display:none!important";
-  butnext.style="display:none!important";
+
+document.addEventListener("DOMContentLoaded", function(event)
+{
+    window.onresize = function() {
+        resize_info();
+    };
+});
+
+function resize_info()
+{
+  if (screen.width<1280){
+    butprev.style="display:none!important";
+    butnext.style="display:none!important";
+  }
+  if (screen.width>1280){
+  if (sost<=1){
+    butprev.style="display:none!important";
+    butnext.style="display:block!important";
+  }
+  if (sost>=2){
+    butprev.style="display:block!important";
+    butnext.style="display:block!important";
+  }
+  if (sost>=3){
+    butprev.style="display:block!important";
+    butnext.style="display:none!important";
+  }
+}
 }
