@@ -30,5 +30,5 @@
    outline: none;
 }
 .nav-btn--disabled{
-    background-color: rgba(102, 102, 102, .5);
+    background-color: rgba(102, 102, 102, .5)!important;
 }

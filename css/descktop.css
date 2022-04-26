@@ -297,20 +297,14 @@ button:active, button:focus {
     }
     .is-opened.burger::before{
         top:calc(50%-3px / 2);
-        transform: rotate(45deg)translateY(11.3px);
+        transform: rotate(45deg) translateY(11.3px);
     }
     .is-opened.burger::after{
         bottom: calc(50%-3px/2);
-        transform: rotate(-45deg)translateY(-11.3px);  
+        transform: rotate(-45deg) translateY(-11.3px);  
     }
     .is-opened.burger{
         width: 15px;
         margin-bottom: 300px;
         }
-
-
-
-
-
-
-}
+    }

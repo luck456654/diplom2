@@ -103,6 +103,7 @@ a {
   display: block;
   animation-name: dropdownOpen;
   animation-duration: 0.4s;
+  transform: translateY(318px);
   }
   
 .header__dropdown.is-disabled {
