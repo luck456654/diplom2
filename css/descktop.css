@@ -67,6 +67,9 @@ button:active, button:focus {
 
 }
 @media(max-width:1280px){
+    .hero__text {
+        width: 124%;
+    }
     .header__bottom{
         display: none;
     }
@@ -176,7 +179,7 @@ button:active, button:focus {
         width: 47px;
     }
     .header__top {
-        padding-bottom: 22px;
+        padding-bottom: 27px;
     }
     .header__logo-image {
         height: 43px;

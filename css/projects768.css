@@ -1,16 +1,12 @@
 @media (max-width: 1023px) {
 .projects {
         padding-top: 80px;
-        padding-bottom: 82px;
+        padding-bottom: 80px;
     }
 .projects__text {
-    margin-bottom: -4px;
+    margin-bottom: -1px;
     }
 .projects__partners-title{
     margin-bottom: 30px;
-}
-.partners-slider__slide{
-    width: 258px!important;
-    margin-right: 33px!important;
 }
 }

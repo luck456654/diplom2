@@ -181,6 +181,9 @@
     .gallery__left, .gallery__last {
       width: calc(280/924*100%);
     }
+    .gallery__nav {
+      padding: 0;
+    }
   }
   
   @media (max-width: 970px) {

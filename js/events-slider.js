@@ -100,6 +100,10 @@ document.addEventListener("DOMContentLoaded", function(event)
     };
 });
 
+ if (screen.width<1280){
+    butprev.style="display:none!important";
+    butnext.style="display:none!important";
+  }
 function resize_info()
 {
   if (screen.width<1280){

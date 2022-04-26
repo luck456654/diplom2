@@ -1,9 +1,12 @@
-@media (max-width: 1919px) {
+@media (max-width: 1280px) {
 .projects {
-    padding-top: 81px;
+    padding-top: 78px;
 }
 .projects__text{
     margin-bottom: -9px;
     max-width: 100%;
+}
+.projects__partners-title {
+    margin-bottom: 21px;
 }
 }

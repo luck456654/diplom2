@@ -151,11 +151,11 @@
         padding-bottom: 117px;
     }
     .hero__title{
-        margin-bottom: 11px;
+        margin-bottom: 8px;
         width: 563px;
     }
     .hero__text:last-of-type{
-       margin-bottom: 105px;
+        margin-bottom: 135px;
     }
     
 }
@@ -197,4 +197,12 @@
         margin-right: -4px;
         }
     }
+@media(max-width:767px){    
+    .hero__title {
+        margin-bottom: 12px;
+    }
+    .about {
+        padding-bottom: 21px!important;
+    }
+    
 }

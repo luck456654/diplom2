@@ -1,4 +1,4 @@
-@media (max-width: 1919px) {
+@media(max-width:1919px){
 .contacts__container {
     padding-top: 23px;
 }
@@ -11,4 +11,9 @@
 .contacts__map{
     height: 700px;
 }
+}
+@media(max-width:1280px){
+    .contacts__container {
+        padding-top: 30px;
+    }
 }

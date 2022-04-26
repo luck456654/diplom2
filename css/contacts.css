@@ -143,6 +143,9 @@ border-radius: 100px;
     color:white;
     border: 3px solid #D1A9F0;
 }
+.contacts__but-ring {
+    height: auto;
+}
 @media(max-width:1280px) {
     .contacts__input {
         width: 72px;
@@ -161,7 +164,7 @@ border-radius: 100px;
     } 
     .contacts__form {
        width: 100%;
-       margin-bottom: 34px;
+       margin-bottom: 31px;
     }
     .contacts__tel{
         position: relative;
@@ -234,14 +237,7 @@ border-radius: 100px;
     .contacts__content {
         padding: 15px 1px;
     }
-    .contacts__shourum {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        margin-bottom: -7px;
-    }
-    .contacts__house{
+   .contacts__house{
         font-size: 14px;
         white-space: nowrap;
     }
