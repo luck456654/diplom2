@@ -122,6 +122,17 @@ body{
     height: 16px;
     
 }
+.marker:hover,.marker:focus{
+    background: #D1A9F0;
+    border: 1px solid #9D5CD0;
+    border-radius: 50%;
+    color: black;
+}
+.marker:active{
+    background: #9D5CD0;
+    color: white;
+    stroke: white;
+}
 .popup{
     position: absolute;
     left: 0;
