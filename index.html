@@ -1156,9 +1156,9 @@
           <div class="contacts__shourum">Шоурум №4</div>
           <div class="contacts__house">Леонтьевский переулок, дом 5/1</div>
         </div>
-        <form class="contacts__form">
-          <input type="text" class="contacts__input contacts__input-effects" placeholder="Имя*">
-          <input type="text" class="contacts__input  contacts__input-effects" placeholder="Телефон*">
+        <form class="contacts__form " id="form">
+          <input type="text" class="contacts__input contacts__input-effects" placeholder="Имя*" id="name">
+          <input type="tel" class="contacts__input  contacts__input-effects" placeholder="Телефон*" id="tel">
           <button type="submit" class="contacts__input contacts__but-ring contacts__but-efects">Заказать обратный
             звонок</button>
           <button type="submit" class="contacts__tel-ring contacts__but-efects">Заказать</button>
@@ -1236,6 +1236,8 @@
   </footer>
   <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/validation.min.js"></script>
+  <script src="js/validationinit.js" defer></script>
   <script src="js/swipper.min.js" defer></script>
   <script src="js/swipper.js" defer></script>
   <script src="js/header__dropdown.js" defer></script>
@@ -1244,7 +1246,6 @@
   <script src="js/choices.min.js" defer></script>
   <script src="js/gallery.js" defer></script>
   <script src="js/accordion.min.js" defer></script>
-
   <script src="js/accordion.js" defer></script>
   <script src="js/catalog.js" defer></script>
   <script src="js/tab.js" defer></script>
