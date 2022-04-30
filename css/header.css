@@ -48,7 +48,7 @@
 }
 .header__top{
     background-color: var(--black);
-    padding-top: 25px;
+    padding-top: 28px;
     padding-bottom: 13px;
     position: relative;
     z-index: 1;

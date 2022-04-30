@@ -95,7 +95,7 @@ border-radius: 100px;
     line-height: 1.2;
 }
 .contacts__soc{
-    padding-top: 5px;
+    padding-top: 8px;
 }
 .contacts__soc-title{
     font-family: 'Open Sans';
@@ -117,7 +117,7 @@ border-radius: 100px;
 .contacts__map{
     position: relative;
     width: 100%;
-    height: 763px;
+    height: 755px;
 }
 .contacts__house{
    white-space: nowrap;
@@ -154,10 +154,12 @@ border-radius: 100px;
     height: auto;
 }
 @media(max-width:1280px) {
-    .contacts__input {
-        width: 72px;
-        flex-grow: 1;
+    .contacts__shourum {
+        margin-bottom: 11px;
     }
+    .contacts__input {
+        width: 270px;
+        }
     .contacts__content{
         display:flex;
     } 
@@ -170,8 +172,8 @@ border-radius: 100px;
         margin-bottom: 30px;
     } 
     .contacts__form {
-       width: 100%;
-       margin-bottom: 31px;
+      margin-bottom: 22px;
+      width: 97%;
     }
     .contacts__tel{
         position: relative;
@@ -179,6 +181,7 @@ border-radius: 100px;
     } 
     .contacts__but-ring{
         font-size: 18px;
+        width: 335px;
     }
     .contacts__ring{
         position: relative;
@@ -187,13 +190,15 @@ border-radius: 100px;
     }   
        .contacts__map{
         height: 671px;
+    }
+    .contacts__house {
+        margin-bottom: 4px!important;
     }   
 }
 @media(max-width:1023px) {
     .contacts__input {
-        width: 219px;
-        flex-grow: 1;
-        margin-bottom: 5px;
+        width: 322px;
+        margin-right: 2px;
     }
 }
 @media(max-width:767px) {
@@ -247,6 +252,7 @@ border-radius: 100px;
    .contacts__house{
         font-size: 14px;
         white-space: nowrap;
+        margin-bottom: -18px!important;
     }
     .contacts__text {
         margin-bottom: 12px;
@@ -303,7 +309,9 @@ border-radius: 100px;
  margin-bottom: 11px;
 }
 .contacts__but-ring{
-    margin-bottom: 0px;
+    font-size: 17.7px;
+    width: 317px;
+    margin-bottom: 2px;
 }
 .contacts__map{
     width: 100%;
@@ -317,7 +325,7 @@ border-radius: 100px;
 }
 @media (max-width: 767px){
 .contacts__container {
-    padding-top: 13px!important;
+    padding-top: 15px!important;
 }
 .contacts__input {
     margin-bottom: 21px;
