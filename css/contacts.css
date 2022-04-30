@@ -12,6 +12,7 @@ border-radius: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 .contacts__form{
     display: flex;
@@ -37,8 +38,9 @@ border: 1px solid #333333;
 box-sizing: border-box;
 border-radius: 100px;
 height: 50px;
-width: 150px;
-flex-grow: 1;
+width: 270px;
+padding: 10px 21px;
+margin-right: 20px;
 }
 .contacts__form{
     display: flex;
@@ -55,7 +57,7 @@ flex-grow: 1;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    width: calc(900 / 1700 * 100%);
+    width: 910px;
     margin-right: auto;
     white-space: wrap;
     flex-wrap: wrap;
@@ -81,19 +83,19 @@ border-radius: 100px;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    margin-bottom: -5px;
-}
+    margin-bottom: 12px;
+   }
 .contacts__container{
-    padding-top: 26px;
+    padding-top: 28px;
     padding-bottom: 37px;
     
 }
 .contacts__text{
     margin-right: 80px; 
+    line-height: 1.2;
 }
-.contacts__input{
-   padding: 10px 21px;
-   margin-right: 20px;
+.contacts__soc{
+    padding-top: 5px;
 }
 .contacts__soc-title{
     font-family: 'Open Sans';
@@ -121,11 +123,16 @@ border-radius: 100px;
    white-space: nowrap;
     }
 .contacts__but-ring{
+    width: 330px;
     border: 2px solid #9D5CD0;
     box-sizing: border-box;
     border-radius: 100px;
     background-color: white;
     color: #9D5CD0;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 30px;
     }
 .contacts__but-ring:hover{
     background-color: #9D5CD0;
@@ -296,7 +303,6 @@ border-radius: 100px;
  margin-bottom: 11px;
 }
 .contacts__but-ring{
-    max-width: 317px;
     margin-bottom: 0px;
 }
 .contacts__map{

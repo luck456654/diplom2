@@ -89,13 +89,15 @@
 .nav-btn--big{
     position: absolute;
     top: 48.5%;
-    transform: translateY(-50%);
+    transform: translatex(-50%);
 }
 
 .nav-btn--next{
 position: absolute;
-left: 98.5%;
 z-index: 5;
+left: auto;
+right: 0;
+transform: translateX(50%);
 }
 .js-events-prevev{
     z-index: 5;
@@ -104,7 +106,7 @@ z-index: 5;
     opacity: 0;
 }
 .events__slider__prev{
-    left: -1.4%;
+    left: 0;
 } 
 @media(max-width:1280px){
     .nav-btn--big{
@@ -154,8 +156,7 @@ z-index: 5;
 @media(max-width:767px){   
     .events__slide-content {
         padding: 9px 16px 60px 23px;
-        margin-bottom: -11px;
-    }
+         }
     .events__slider-info {
         margin-bottom: 9px;
     }

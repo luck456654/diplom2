@@ -76,7 +76,7 @@
   .nav-btn::before {
     content: "";
     position: absolute;
-    top: calc(50% - 7px / 2);
+    top: calc(50% - 6px );
     width: 7px;
     height: 7px;
     transform: rotate(45deg);
@@ -88,13 +88,13 @@
   }
   
   .nav-btn--next::before {
-    left: calc(50% - 7px / 2);
+    left: calc(50% - 7px);
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
   }
   
   .nav-btn--prev::before {
-    left: calc(50% - 7px / 2);
+    left: calc(50% - 4px);
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
   }

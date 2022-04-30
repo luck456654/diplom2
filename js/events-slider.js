@@ -21,7 +21,7 @@ const swiperevents = new Swiper('.js-events-slider', {
     el: '.swiper-scrollbar',
   },
   breakpoints:{
-  611:{
+  768:{
         slidesPerView:2,
         spaceBetween:34,
        },
