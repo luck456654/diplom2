@@ -10,3 +10,7 @@
     width: 250px;
     color: #333333;
 }
+.projects__text {
+    max-width: 100%;
+    overflow: hidden;
+}

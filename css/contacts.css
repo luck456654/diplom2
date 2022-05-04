@@ -139,20 +139,43 @@ border-radius: 100px;
     color: white;
 }
 .contacts__input-effects:hover,.contacts__input-effects:focus{
-    background-color: #EAEAEA;;
+    background-color: #EAEAEA;
+    transition: background-color 0.3s ease-in-out;
 }
 .contacts__but-efects:hover{
     background-color: #9D5CD0;
     color:white;
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 .contacts__but-efects:focus{
     background-color: #9D5CD0;
     color:white;
     border: 3px solid #D1A9F0;
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 .contacts__but-ring {
     height: auto;
+    cursor: pointer;
 }
+.contacts__input-wrapper{
+    position: relative;
+}
+.just-validate-error-label{
+    position: absolute;
+    top:-19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.gmnoprint{
+    opacity: 0!important;
+}
+
+
 @media(max-width:1280px) {
     .contacts__shourum {
         margin-bottom: 11px;

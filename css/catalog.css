@@ -186,10 +186,60 @@
 .link__texts:focus:not(:hover){
     background-color: #9D5CD0;
     color: white;
+    position: relative;
+    
+}
+.link__texts:active:not(:hover){
+    background-color: #9D5CD0;
+    color: white;
+    position: relative;
+    
 }
 .link__texts:hover:not(:focus){
     color: #9D5CD0;
     text-decoration: underline;
+}
+.catalog__show-empty:focus{
+    background-color: #9D5CD0;
+    color: white!important;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.catalog__show-empty:active{
+    background-color: #9D5CD0;
+    color: white!important;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.catalog__show-empty:hover{
+    background-color:white ;
+    color: #9D5CD0!important;
+   text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.catalog__show-dominico:focus{
+    background-color: #9D5CD0;
+    color: white!important;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.catalog__show-dominico:active{
+    background-color: #9D5CD0;
+    color: white!important;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.catalog__show-dominico:hover{
+    background-color:white ;
+    color: #9D5CD0!important;
+   text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 .accordion__empty{
     display: flex;

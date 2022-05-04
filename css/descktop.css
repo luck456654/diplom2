@@ -56,6 +56,24 @@ button:active, button:focus {
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
   }
+  .contacts__map .gm-bundled-control{
+   display: none;
+  }
+  .contacts__map .gm-bundled-control-on-bottom{
+   display: none;
+  }
+  .contacts__map .gm-control-active{
+   display: none;
+  }
+  .widget-zoom-in{
+   display: none; 
+  }
+  .contacts__map.noselect{
+   display: none;
+  }
+  .contacts__map.app-vertical-widget-holder {
+     display: none;
+  }
 @media(max-width:1600px){
     
 .header__nav-item{
