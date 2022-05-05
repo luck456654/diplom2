@@ -159,7 +159,7 @@
     }
     
 }
-@media(max-width:610px){
+@media(max-width:767px){
     .hero{
         padding-top: 30px;
         padding-bottom: 45px;

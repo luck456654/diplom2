@@ -25,17 +25,27 @@
 .header__nav-link:focus{
     outline: none;
 }
-@media (min-width: 1280px) {
-.header__account:hover{
-    width: 75px;
-    fill:var(--violet-light);
+.header__svg,.header__svg:hover {
+    color: white!important;
 }
+
+.link__icon {
+    color: white;
 }
+.link__icon:focus, .link__icon:hover{
+    color: white;
+}
+.header__account{
+    width: 91px;
+    white-space: nowrap;
+}
+
 .header__search-input:focus::placeholder{
     opacity:0;
 } 
 .header__search-input:hover{
     border-color: var(--violet-light);
+    color: white;
 }
 .header__search-input:focus{
     border-color: var(--violet-dark);
@@ -48,7 +58,7 @@
 }
 .header__top{
     background-color: var(--black);
-    padding-top: 28px;
+    padding-top: 23px;
     padding-bottom: 13px;
     position: relative;
     z-index: 1;
@@ -86,18 +96,17 @@
 
 .header__menu{
     flex-wrap: wrap;
-    width:61.3vw;
-   }
+    }
 
 .header__nav-item{
     margin-right: 3.29vw;
 }
 .header__login{
    width: 72px;
+   margin-right: 18px;
    }
 .header__account{
-    width: 72px;
-    overflow: hidden;
+   overflow: hidden;
 }   
 .header__nav-linck{
     font-weight: 600;

@@ -3,6 +3,7 @@
 }
 .contacts__link:hover,.contacts__link:focus{
     opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
 }
 .contacts__link:active svg{
 border: 1px solid #9643A4;
@@ -113,6 +114,7 @@ border-radius: 100px;
     width: 39px;
     height: 39px;
     margin-right: 15px;
+    transition: opacity 5s ease-in-out;
 }
 .contacts__map{
     position: relative;

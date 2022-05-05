@@ -18,6 +18,7 @@
 .footer__soc-icon{
     width: 50px;
     height: 50px;
+    
 }   
 .footer__backsocicon:not(:last-child){
     margin-right: 15px!important;
@@ -25,9 +26,11 @@
 } 
 .footer__backsocicon:hover{
     fill: white;
+    transition: fill 0.3s ease-in-out;
 }  
 .footer__backsocicon:active{
     fill: #9D5CD0!important;
+    transition: fill 0.3s ease-in-out;
 } 
 .footer__backsocicon{
     fill: #CACACA;
@@ -63,7 +66,7 @@
         top: -92px;
     }
     .contacts__soc-wrapper{
-        margin-bottom: 40px;
+        margin-bottom: 56px!important;
     }
     .footer__container {
         padding: 22px 51px;
@@ -86,7 +89,7 @@
         order: 1;
     }
     .footer__container {
-        padding: 20px 50px;
+        padding: 21px 50px;
     }
     .footer__soc-icon{
         width: 50px;
