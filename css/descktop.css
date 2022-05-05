@@ -130,8 +130,14 @@ button::-moz-focus-inner {
     .header__bottom-item {
         margin-right: 55px;
     }
-   
-
+    .accordion__empty-wrapper{
+        width: 90%;
+        height: 131px;
+    }  
+    .accordion__empty-paint{
+        width: 90%;
+        height: 109px;
+    }
 }
 
 @media(max-width:1279px) {
