@@ -74,4 +74,12 @@
     .contacts__text {
         margin-bottom: 35px;
     }
+    .accordion__empty-paint {
+        width: 83%!important;
+        height: 95px!important;
+    }
+    .accordion__empty-wrapper {
+        width: 22%!important;
+        height: 113px!important;
+    }
 }
